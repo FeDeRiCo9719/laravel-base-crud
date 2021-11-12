@@ -61,9 +61,11 @@
             .m-b-md {
                 margin-bottom: 30px;
             }
+            
         </style>
     </head>
     <body>
+        
         <div class="flex-center position-ref full-height">
             @if (Route::has('login'))
                 <div class="top-right links">
@@ -80,6 +82,11 @@
             @endif
 
             <div class="content">
+
+                <a href="{{route('comics.index')}}">
+                    <button type="button" class="btn btn-primary">Go to Comics</button>
+                </a>
+                
                 <div class="title m-b-md">
                     Laravel
                 </div>

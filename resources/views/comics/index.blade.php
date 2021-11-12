@@ -1,5 +1,7 @@
 @extends('layout.base')
 
+@section('title', 'Comics')
+
 @section('content')
 <h1>Comics Series</h1>
 <table class="table">
