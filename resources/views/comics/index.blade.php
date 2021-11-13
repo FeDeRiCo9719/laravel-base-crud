@@ -12,7 +12,7 @@
             <th scope="col">Series</th>
             <th scope="col">Type</th>
             <th scope="col">Price</th>
-            <th scope="col">Actions</th>
+            <th scope="col">View</th>
         </tr>
     </thead>
     <tbody>
@@ -25,7 +25,7 @@
             <td>{{$comic['price']}} $</td>
             <td>
                 <a href="{{route('comics.show',$comic['id'])}}">
-                    <button type="button" class="btn btn-info">View</button>
+                    <button type="button" class="btn btn-primary">View</button>
                 </a>
             </td>
         </tr>

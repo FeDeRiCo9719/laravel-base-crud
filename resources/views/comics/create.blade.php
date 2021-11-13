@@ -43,7 +43,7 @@
     </div>
 
     <div class="d-flex justify-content-between">
-        <button type="submit" class="btn btn-primary">Create</button>
+        <button type="submit" class="btn btn-dark">Create</button>
 
         <a href="{{route('comics.index')}}">
             <button type="button" class="btn btn-primary">Back to Comics</button>

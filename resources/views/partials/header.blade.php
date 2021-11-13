@@ -20,7 +20,7 @@
         
         <form class="form-inline my-2 my-lg-0">
             <a href="{{route('comics.create')}}" class=" mr-sm-2">
-                <button type="button" class="btn btn-primary">Create new Comic</button>
+                <button type="button" class="btn btn-dark">Create new Comic</button>
             </a>
             <input class="form-control mr-sm-2" type="search" placeholder="Search" aria-label="Search">
             <button class="btn btn-outline-success my-2 my-sm-0" type="submit">Search</button>
